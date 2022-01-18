@@ -1,0 +1,27 @@
+version: 2
+
+sources:
+  - name: adventureworks_etl
+    tables:
+        - name: orders
+        - name: customers
+        - name: _sdc_primary_keys
+        - name: _sdc_rejected
+        - name: address
+        - name: countryregion
+        - name: creditcard
+        - name: customer
+        - name: department
+        - name: e
+        - name: employee
+        - name: person
+        - name: product
+        - name: productcategory
+        - name: productdescription
+        - name: productmodel
+        - name: salesorderdetail
+        - name: salesorderheader
+        - name: salesorderheadersalesreason
+        - name: salesperson
+        - name: salesreason
+        - name: stateprovince
